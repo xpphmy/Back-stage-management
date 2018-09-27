@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>XACA统一认证管理系统</title>
+	<link rel="stylesheet" href="css/cssStyle.css">
+</head>
+<body>
+	<div class="outer">
+		<div class="title"></div>
+		<div class="inner">
+			<div class="innerLeft"></div>
+			<div class="innerRight"></div>
+		</div>
+	</div>
+<!-- head -->
+	<div class="head">
+		<img src="images/logo2.png" alt="" class="titleImg2">
+		<div class="headRight">
+			<p>河南省中远科技有限公司—后台管理界面</p>
+			<p>
+				<span id="select">用户信息</span>
+				<span>证书管理</span>
+				<span>功能演示</span>
+				<!-- <span>扫码签章</span> -->
+			</p>
+		</div>
+		<img src="images/5.png" alt="" class="titleImg3">
+		<div class="headImg">
+			<img src="images/19.png" alt="" class="titleImg4">
+			<a href="html/login.html">修改密码</a>
+			<a href="index.html">注销登录</a>
+		</div>
+	</div>
+<!-- content -->
+	<div class="content" style="display: block;">
+		<div class="conLeft">
+			<ul>
+				<li class="oulis" id="lis">信息浏览</li>
+				<li class="oulis">基本信息修改</li>
+				<li class="oulis">头像更新</li>
+			</ul>
+		</div>
+		<div class="conRight" style="display: block;">
+			<figure class="Information">
+				<figcaption>基本信息</figcaption>
+				<img src="images/19.png" alt="">
+				<p>
+					<label>用户名:</label>
+					<span>xpp12345678</span>
+				</p>
+				<p>
+					<label>手机号:</label>
+					<span>12345678910</span>
+				</p>
+				<p>
+					<label>邮&nbsp&nbsp箱:</label>
+					<span>12345@678910</span>
+				</p>
+			</figure>
+		</div>
+		<div class="conRight">
+			<figure class="modification">
+				<figcaption>信息修改</figcaption>
+				<p>
+					<label>用户名:</label>
+					<input value="xpp12345678">
+				</p>
+				<p>
+					<label>手机号:</label>
+					<input value="12345678910">
+				</p>
+				<p>
+					<label>邮&nbsp&nbsp箱:</label>
+					<input value="12345@678910">
+				</p>
+				<button>提交</button>
+			</figure>
+		</div>
+		<div class="conRight">
+			<figure class="photo">
+				<figcaption>头像更新</figcaption>
+				<form>
+					<div><img src="images/19.png" alt=""></div>
+					<label>选择图片文件</label>
+					<input type="file" class="file" size="28"/>
+					<input type="button" value="上传" class="btn" />
+				</form>
+			</figure>
+		</div>
+	</div>
+	<div class="content">
+		<div class="conLeft">
+			<ul>
+				<li class="oulis" id="lis">证书管理</li>
+			</ul>
+		</div>
+		<div class="conRight" style="display: block;">
+			<figure class="Information">
+				<!-- <figcaption>证书管理</figcaption> -->
+			</figure>
+		</div>
+	</div>
+	<div class="content">
+		<div class="conLeft">
+			<ul>
+				<li class="oulis" id="lis">扫码签章</li>
+				<li class="oulis">扫码签名</li>
+			</ul>
+		</div>
+		<div class="conRight" style="display: block;">
+			<figure class="signature">
+				<figcaption>扫码签章</figcaption>
+				<textarea rows="7" cols="25">
+				</textarea><br>
+				<button class="button1">提交</button>
+			</figure>
+		</div>
+		<div class="conRight">
+			<figure class="autograph">
+				<figcaption>扫码签名</figcaption>
+				<p>
+					<input value="xpp12345678">
+					<label>用户名:</label>
+				</p>
+				<p>
+					<input value="12345678910">
+					<label>用户联系方式:</label>
+				</p>
+				<p>
+					<input value="12345@678910">
+					<label>用户邮箱:</label>
+				</p>
+				<button class="btnautograph">签名</button>
+			</figure>
+		</div>
+	</div>
+<!-- bottom -->
+	<div class="bottom">CopyRight © 2013-2017 河南省中远科技有限公司  服务热线:0371-12345678</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/jsText2.js"></script>
+</html>
